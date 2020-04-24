@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List - Vanilla Javascript</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pure Vanilla Javascript To Do List</h1>
+    <p>Use the below form for create your tasks and add in list.</p>
+
+    <p>Tasks count <b>0</b></p>
+
+    <form name="todoListForm" id="todoListForm">
+        <input type="text" name="inputTask" value="" placeholder="Write task name here">
+        
+        <button class="addNewTask" name="addTask" type="submit" disabled="true">Add New Task</button>
+        <button class="removeAllTasks" name="removeAllTasks" type="button" disabled="true">Remove All Tasks</button>
+    <form>
+
+    <ul id="taskList">
+    </ul>
+    
+    <script src="to-do-list.js"></script>
+</body>
+</html>

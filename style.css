@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+
+input {
+    font-size:.8em;
+    padding:.6rem .5rem .4rem;
+}
+button {
+    padding:.4rem .4rem;
+}
+
+ul {
+    /* list-style: circle; */
+}
+.addNewTask,
+.removeAllTasks {
+    position: relative;
+    top:-2px;
+    display: inline-block;
+}
+
+.removeTask {
+    font-size:.780em;
+    background-color:transparent;
+    outline:0;
+    border: none;
+    cursor:pointer;
+}
+.removeTask:hover {
+    text-decoration:underline;
+}
