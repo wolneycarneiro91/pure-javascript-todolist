@@ -3,6 +3,10 @@
     -webkit-box-sizing:border-box;
 }
 
+form {
+    max-width:440px;
+}
+
 input {
     font-size:.8em;
     padding:.6rem .5rem .4rem;
@@ -12,7 +16,7 @@ button {
 }
 
 ul {
-    /* list-style: circle; */
+    list-style: decimal
 }
 .addNewTask,
 .removeAllTasks {
